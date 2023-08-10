@@ -12,6 +12,7 @@ import TextFieldMui from "./components/MuiComponents/TextFieldMui";
 import SwitchMui from "./components/MuiComponents/SwitchMui";
 import BadgeMui from "./components/MuiComponents/BadgeMui";
 import HomePageMui from "./components/MuiComponents/HomePageMui";
+import TabsMui from "./components/MuiComponents/TabsMui";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/textFieldMui" element={<TextFieldMui />} />
           <Route path="/switchMui" element={<SwitchMui />} />
           <Route path="/badgeMui" element={<BadgeMui />} />
+          <Route path="/tabsMui" element={<TabsMui />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

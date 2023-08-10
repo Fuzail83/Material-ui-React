@@ -36,6 +36,9 @@ const Header = () => {
           <Link to="/badgeMui" style={styles.navLink}>
             <li style={styles.navItem}>Badge Count</li>
           </Link>
+          <Link to="/tabsMui" style={styles.navLink}>
+            <li style={styles.navItem}>Tabs</li>
+          </Link>
         </ul>
       </nav>
     </div>
